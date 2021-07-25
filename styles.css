@@ -1,5 +1,25 @@
 body {
-    margin: 0;
-    background: pink;
-    text-align: center;
+  margin: 0;
+  background: pink;
+}
+
+grid {
+  display: inline-block;
+  width: 120px;
+  background-color: rgb(255, 91, 91);
+}
+
+.tile {
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+  height: 30px;
+  background-color: peru;
+  transition: 0.15s all;
+  text-align: center;
+}
+
+.tile:hover {
+  background-color: rgb(172, 110, 48);
+  cursor: pointer;
 }
